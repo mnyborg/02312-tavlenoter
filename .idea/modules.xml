@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/lektion01/lektion01.iml" filepath="$PROJECT_DIR$/lektion01/lektion01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion02/lektion02.iml" filepath="$PROJECT_DIR$/lektion02/lektion02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion03/lektion03.iml" filepath="$PROJECT_DIR$/lektion03/lektion03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion04/lektion04.iml" filepath="$PROJECT_DIR$/lektion04/lektion04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion05/lektion05.iml" filepath="$PROJECT_DIR$/lektion05/lektion05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion06/lektion06.iml" filepath="$PROJECT_DIR$/lektion06/lektion06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion07/lektion07.iml" filepath="$PROJECT_DIR$/lektion07/lektion07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion08/lektion08.iml" filepath="$PROJECT_DIR$/lektion08/lektion08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion09/lektion09.iml" filepath="$PROJECT_DIR$/lektion09/lektion09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion10/lektion10.iml" filepath="$PROJECT_DIR$/lektion10/lektion10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion11/lektion11.iml" filepath="$PROJECT_DIR$/lektion11/lektion11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lektion12/lektion12.iml" filepath="$PROJECT_DIR$/lektion12/lektion12.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tavlenoter.iml" filepath="$PROJECT_DIR$/.idea/tavlenoter.iml" />
     </modules>
   </component>
