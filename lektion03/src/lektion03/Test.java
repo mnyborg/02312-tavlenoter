@@ -4,7 +4,7 @@ package lektion03;
 import java.util.Scanner;
 
 public class Test {
-
+psvm
 	public static void main(String[] args) {
 		Scanner keyb = new Scanner(System.in);
 		String out;
@@ -16,7 +16,7 @@ public class Test {
 
 			String ugeDag = keyb.next();
 
-			// konverter til små bogstaver
+			// konverter til smï¿½ bogstaver
 			ugeDag = ugeDag.toLowerCase();
 			
 			if (ugeDag.equals("afslut")) {
@@ -32,8 +32,8 @@ public class Test {
 			case "fredag":
 				out = "Det er arbejsdadag";
 				break;
-			case "lørdag":
-			case "søndag":
+			case "lï¿½rdag":
+			case "sï¿½ndag":
 				out = "Det er weekend";
 				break;
 			default: out = "Kender ikke denne dag";
