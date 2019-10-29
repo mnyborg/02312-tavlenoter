@@ -1,4 +1,4 @@
-package lektion08;
+package lektion08.dice;
 
 public class Dice {
 	private int faceValue;
