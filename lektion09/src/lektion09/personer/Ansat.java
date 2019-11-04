@@ -22,4 +22,8 @@ public class Ansat extends Person {
 				"loen=" + loen +
 				'}';
 	}
+
+	public void id() {
+
+	}
 }
