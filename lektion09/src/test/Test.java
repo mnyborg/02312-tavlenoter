@@ -1,6 +1,6 @@
 package test;
 
-import lektion09.Student;
+import lektion09.personer.Student;
 
 public class Test {
 

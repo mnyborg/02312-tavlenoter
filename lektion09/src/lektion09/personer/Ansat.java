@@ -1,4 +1,4 @@
-package lektion09;
+package lektion09.personer;
 
 public class Ansat extends Person {
 	private int loen;
