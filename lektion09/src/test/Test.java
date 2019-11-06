@@ -1,12 +1,16 @@
 package test;
 
-import lektion09.Student;
+import figurer.Cirkel;
+import figurer.Cylinder;
+
 
 public class Test {
 
 	public static void main(String[] args) {
-		Student s = new Student("Pia Jensen", "Poppelvej 2", "s123456");
-		System.out.println(s);
+		Cylinder c = new Cylinder(3.0, 4.0);
+
+		System.out.println(c);
+		System.out.println("Cylinder areal: " + c.areal());
 
 	}
 
