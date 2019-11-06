@@ -1,4 +1,4 @@
-package lektion09;
+package lektion09.personer;
 
 class Person {
 	String navn;

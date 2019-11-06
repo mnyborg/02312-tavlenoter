@@ -1,4 +1,4 @@
-package lektion09;
+package lektion09.personer;
 
 public class Ansat extends Person {
 	private int loen;
@@ -21,5 +21,9 @@ public class Ansat extends Person {
 		return "Ansat{" +
 				"loen=" + loen +
 				'}';
+	}
+
+	public void id() {
+
 	}
 }

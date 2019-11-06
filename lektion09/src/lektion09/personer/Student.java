@@ -1,4 +1,4 @@
-package lektion09;
+package lektion09.personer;
 
 public class Student extends Person {
 	private String studieNummer;
