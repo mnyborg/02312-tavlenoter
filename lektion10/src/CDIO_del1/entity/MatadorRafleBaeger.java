@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class MatadorRafleBaeger {
 	protected int terning1, terning2;
-	Random rand;
+	private Random rand;
 
 
 	public MatadorRafleBaeger()	{

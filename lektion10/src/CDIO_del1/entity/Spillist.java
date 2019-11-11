@@ -10,9 +10,9 @@ public class Spillist {
 	private Spiller[] spillere;
 	
 	public Spillist(int antal ) {
-		spillere= new Spiller[antal];
+		spillere = new Spiller[antal];
 		for (int i = 0;i < antal;i++)
-			spillere[i]=new Spiller();
+			spillere[i] = new Spiller();
 	} 
 	
 	/**
@@ -39,7 +39,7 @@ public class Spillist {
 	 * @return index på den spiller der vandt
 	 */
 	public boolean isVinder(){
-		for (int i=0;i<spillere.length;i++){
+		for (int i = 0;i < spillere.length;i++){
 			if (spillere[i].isVinder())
 				return true;
 		}		

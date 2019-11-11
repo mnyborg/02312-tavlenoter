@@ -27,7 +27,7 @@ public class Out {
 	 */
 	public void spilstarter(){
 		s.println("Spillet starter ");
-		s.println(" ");
+		linieSkift();
 		
 	}
 	
@@ -39,12 +39,12 @@ public class Out {
 		for (int i=0; i<p.length;i++){	
 			s.println("Spiller nr:"+ (i+1) + " Navn: " +p[i].getNavn()+" Saldo: " + p[i].getSaldo()+ " ");
 		}
-		s.println(" ");
+        linieSkift();
 	}
     
     /**
      * Udskriver venter på slag tekst
-     * @param pNr spiller vi venter på
+     * @param navn spiller vi venter på
      */
     public void venterPaaSlag(String navn){
 		s.println("***");
@@ -62,19 +62,19 @@ public class Out {
     
     /**
      * Udskriver spillers pointstatus
-     * @param p spiller nummer
+     * @param p array med spillere
      */
-    public void visSpilStatus (Spiller [] p){
+    public void visSpilStatus (Spiller[] p){
     	s.print("Status: ");
     	for(int j = 0; j < p.length; j++){		
 			s.print("Spiller " + p[j].getNavn() + ": " + p[j].getSaldo() + " *** "); 
 		}
-		s.println("");
+        linieSkift();
 	}
 	
     /**
      * Udskriver slå igen tekst
-     * @param pNr spillernummer
+     * @param navn spillernummer
      */
     public void visSlaaIgen(String navn){
 		s.println("Spiller " + navn + ": Slog to ens tillykke. Du må slå igen");
@@ -86,10 +86,8 @@ public class Out {
      * @param pNr spiller der vandt
      * @param p array med spillere
      */
-	public void visSlutInfo(int pNr,Spiller [] p){
-		s.println("");
+	public void visSlutInfo(int pNr,Spiller[] p){
+        linieSkift();
 		s.println("Spillet er slut. " + p[pNr].getNavn() + " vandt");
-	
-		
 	}	
 }

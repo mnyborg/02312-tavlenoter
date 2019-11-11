@@ -1,6 +1,6 @@
 package CDIO_del1.entity;
 /** Implementerer en Spiller<br>
- * Indeholder foruden sopillers nav, farve og saldo også flg. boolske variable: <br>
+ * Indeholder foruden spillerens navn, farve og saldo også flg. boolske variable: <br>
  * -isDeath: angiver om spilleren er død<br>
  * -isVinder: angiver om spiller er vinder<br>
  * -isVinderPending: angiver om spilleren opfylder vinderkriterium<br>

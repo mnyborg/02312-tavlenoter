@@ -10,6 +10,8 @@ import CDIO_del1.controller.Controller;
  * @version 1.0
  */
 
+
+
 public class Main {
 	public static void main(String[] args) {
 		// antal spillere = 2

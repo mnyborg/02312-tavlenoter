@@ -1,4 +1,6 @@
-package CDIO_del1.entity;
+package CDIO_del1.logik;
+
+import CDIO_del1.entity.Spiller;
 
 /**
  * Implementerer spillogikken
@@ -54,7 +56,7 @@ public class Spil {
 		{
 
 			// 1. Mister alle sine point hvis man slår to 1'ere.
-			if ((terninger[0] == 1 && terninger[1]==1)) {
+			if ((terninger[0] == 1 && terninger[1] == 1)) {
 				p.setSaldo(0);
 				p.setVinderPending(false);
 			}
@@ -64,7 +66,7 @@ public class Spil {
 			
 			// 3. Vinder spillet ved at slå to 6'ere, hvis man også i forrige kast slog to 6'ere 
 			// uanset om det er på ekstrakast eller i forrige tur.
-			if ((terninger[0] == 6 && terninger[1]==6))
+			if ((terninger[0] == 6 && terninger[1] == 6))
 				if (p.getAntal6ere()==1)
 					p.setVinder(true);
 				else

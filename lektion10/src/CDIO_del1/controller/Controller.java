@@ -3,7 +3,7 @@ package CDIO_del1.controller;
 import CDIO_del1.boundary.Keyboard;
 import CDIO_del1.boundary.Out;
 import CDIO_del1.entity.MatadorRafleBaegerAutoTest;
-import CDIO_del1.entity.Spil;
+import CDIO_del1.logik.Spil;
 import CDIO_del1.entity.Spiller;
 import CDIO_del1.entity.Spillist;
 
@@ -35,7 +35,7 @@ public class Controller {
 	public Controller(int antal) {
 		antalSpillere = antal;
 		rafle = new MatadorRafleBaegerAutoTest(0);
-		spillist=new Spillist(antal);
+		spillist = new Spillist(antal);
 		keyb = new Keyboard();
 		out = new Out();
 	}
@@ -52,7 +52,7 @@ public class Controller {
 		out.visSpilStatus(spillist.getSpillere());
 		out.linieSkift();
 		out.spilstarter();
-		int pNr=0; 
+		int pNr = 0;
 		// nuværende spiller
 		Spiller s;
 		

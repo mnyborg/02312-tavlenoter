@@ -9,7 +9,7 @@ package CDIO_del1.entity;
  */
 
 public class MatadorRafleBaegerAutoTest extends MatadorRafleBaeger{
-	int index;
+	private int index;
 	public MatadorRafleBaegerAutoTest(int index) {
 		super();
 		this.index = index;
