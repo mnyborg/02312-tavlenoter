@@ -27,7 +27,7 @@ public class Test {
 		//		String s2 = s;
 		//		
 		//		
-		//		// læs et heltal fra tastatur
+		//		// l?s et heltal fra tastatur
 		//		Scanner sc = new Scanner(System.in);  // System.in = Tastatur
 		//		System.out.println("Indtast alder: ");
 		//		int i = sc.nextInt();
@@ -59,8 +59,8 @@ public class Test {
 		}
 		else
 		{
-			System.out.println("Du er konfirmeret eller skal konfirmeres i år");
-			System.out.println("Glæd dig til gaverne hvis du skal konfirmeres i år");
+			System.out.println("Du er konfirmeret eller skal konfirmeres i ?r");
+			System.out.println("Gl?d dig til gaverne hvis du skal konfirmeres i ?r");
 		}
 
 
