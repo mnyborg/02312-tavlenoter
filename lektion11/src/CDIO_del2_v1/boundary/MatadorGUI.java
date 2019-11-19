@@ -44,11 +44,7 @@ public class MatadorGUI extends AbstractUI {
     }
     @Override
     public void visSpilStatus (Spiller [] p) {
-        // fjern alle biler fra alle felter
-       // TODO: fix array length
         for (int i=0; i<fields.length; i++) {
-            // rapportere forkert længde på fields (16)
-//            System.out.println(fields.length);
             if( fields[i]!=null) {
                 fields[i].removeAllCars();
             }
@@ -67,8 +63,6 @@ public class MatadorGUI extends AbstractUI {
     public void visSlutInfo(int pNr,Spiller [] p) {
         players[pNr].setBalance(p[pNr].getSaldo());
 
-        // fjern alle biler fra alle felter
-        // TODO: fix array length
         for (int i=0; i<12; i++)
             fields[i].removeAllCars();
 

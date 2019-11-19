@@ -3,8 +3,8 @@ package figurer;
 public class Cylinder extends Cirkel {
     private double h;
 
-    public Cylinder(double r, double h) {
-        super(r);
+    public Cylinder(String farve, double r, double h) {
+        super(farve, r);
         this.h = h;
     }
 
