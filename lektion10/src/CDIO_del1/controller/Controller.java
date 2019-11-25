@@ -46,6 +46,7 @@ public class Controller {
 	 * Returnerer når der findes en vinder
 	 */
 	public void gamecontrol(){
+		// todo
 		// her kunne man lave en dialog, der beder brugeren om at indtaste oplysninger på spillere
 		spillist.addspiller(antalSpillere);
 		out.startInfo(spillist.getSpillere());
