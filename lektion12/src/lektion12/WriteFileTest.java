@@ -1,9 +1,6 @@
 package lektion12;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.Random;
 
 public class WriteFileTest {
@@ -12,11 +9,8 @@ public class WriteFileTest {
 
 
 		int value;
-		String file = "src/test.dat";
-
-
+		String file = "lektion12/src/test.dat";
 		Random rand = new Random();
-
 
 		FileWriter fw = new FileWriter (file);
 		BufferedWriter bw = new BufferedWriter (fw);
