@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class TestIOException {
 
 	public static void main(String[] args) {
-		File file = new File("src/test.dat");
+		File file = new File("lektion12/src/test.dat");
 		try {
 			Scanner scanner = new Scanner(file);
 
