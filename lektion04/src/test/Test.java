@@ -3,19 +3,40 @@ package test;
 import circle.Circle;
 import dice.Dice;
 
+
 public class Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		// TODO Auto-generated method stub
+//		int newVal;
+//
+//		Dice d1 = new Dice(3); // kald af klassens KonstruktÃ¸r
+//		Dice d2 = new Dice(6); // kald af klassens KonstruktÃ¸r
+//		Dice d3 = new Dice();
+//
+//		System.out.println(d1);
+//
+//		d1.setFaceValue(6);
+//
+//		System.out.println(d1);
+//		System.out.println(d1.getFaceValue());
+//
+//		newVal = d1.roll();
+//
+//		System.out.println(newVal);
+//
+//		System.out.println(d3);
+//
+
 
 		Circle c1 = new Circle(2);
 		c1.setRadius(3);
-		
+
 		System.out.println(c1);
-		
+
 		System.out.println("Cirklens areal: " + c1.area());
-		
-		
+
+
 		
 		
 		
@@ -36,18 +57,18 @@ public class Test {
 //		d2.setFaceValue(6);
 //
 //		// kast terning
-//		// ny øjenværdi gemmes i objekt
+//		// ny Ã¸jenvÃ¦rdi gemmes i objekt
 //		d1.roll();
 //
-//		// udskriv en streng repræsentation af d1
+//		// udskriv en streng reprÃ¦sentation af d1
 //		System.out.println(d1);
 //		System.out.println(d2);
 //
 //		// definer en int til at modtage 
-//		// ny værdi når terning kastes
+//		// ny vÃ¦rdi nÃ¥r terning kastes
 //		int newVal;
 //		newVal = d2.roll();
-//		// udskriv øjneværdi
+//		// udskriv Ã¸jnevÃ¦rdi
 //		System.out.println(newVal);
 	}
 

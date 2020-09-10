@@ -17,7 +17,12 @@ public class Student {
 	public static String getUniversitet() {
 		return universitet;
 	}
-	
+
+	public static void setUniversitet(String universitet) {
+		Student.universitet = universitet;
+	}
+
+
 	public String getSnr() {
 		return this.sNr;
 	}

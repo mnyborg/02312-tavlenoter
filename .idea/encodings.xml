@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/lektion04/src/test/Test.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion02/src/lektion02/Test.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion04/src/circle/Circle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lektion04/src/test/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lektion05/src/lektion05/Bil.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/lektion05/src/lektion05/ThisTest.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/lektion10/src/CDIO_del1/Main.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion10/src/CDIO_del1/boundary/Keyboard.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion10/src/CDIO_del1/boundary/Out.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion10/src/CDIO_del1/boundary/Screen.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion10/src/CDIO_del1/controller/Controller.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion10/src/CDIO_del1/entity/MatadorRafleBaegerAutoTest.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion10/src/CDIO_del1/entity/Spiller.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion10/src/CDIO_del1/entity/Spillist.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion10/src/CDIO_del1/logik/Spil.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/GUI.jar" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/Main.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/boundary/Keyboard.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/boundary/KeyboardMatadorGUI.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/boundary/MatadorGUI.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/boundary/TUI.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/boundary/Tekster.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/boundary/UI.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/controller/Controller.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/entity/MatadorRafleBaeger.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/entity/MatadorRafleBaegerAutoTest.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/entity/Spiller.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/entity/Spillist.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del1_v2/logik/Spil.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/Main.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/boundary/AbstractKeyboard.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/boundary/AbstractUI.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/boundary/Keyboard.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/boundary/KeyboardMatadorGUI.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/boundary/MatadorGUI.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/boundary/TUI.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/boundary/Tekster.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/controller/Controller.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/entity/Felt.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/entity/FeltList.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/entity/MatadorRafleBaeger.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/entity/MatadorRafleBaegerAutoTest.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/entity/Spiller.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/entity/Spillist.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/logik/AbstractSpil.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion11/src/CDIO_del2_v1/logik/Spil.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/lektion12/src/lektion12/ExceptionPropagation.java" charset="ISO-8859-1" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

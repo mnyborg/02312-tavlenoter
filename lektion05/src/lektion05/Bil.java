@@ -9,9 +9,9 @@ public class Bil {
 	private Hjul hf;
 	private Hjul vb;
 	private Hjul hb;
-	
-	public Bil(Hjul vf, Hjul hf, Hjul vb, Hjul hb, String maerke, String model) {
-		super();
+
+
+	public Bil(String maerke, String model, Hjul vf, Hjul hf, Hjul vb, Hjul hb) {
 		this.maerke = maerke;
 		this.model = model;
 		this.vf = vf;
@@ -19,12 +19,16 @@ public class Bil {
 		this.vb = vb;
 		this.hb = hb;
 	}
+
+
 	public String getMaerke() {
 		return maerke;
 	}
+
 	public void setMaerke(String maerke) {
 		this.maerke = maerke;
 	}
+
 	public String getModel() {
 		return model;
 	}

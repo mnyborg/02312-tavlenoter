@@ -1,57 +1,54 @@
 package dice;
 
 public class Dice {
-	private final int MAX = 6;  // maximum øjne værdi
+    private final int MAX = 6;  // maximum Ã¸jne vÃ¦rdi
 
-	private int faceValue;  // nuværende øjne værdi
-
-	// konstruktør
-	public Dice()
-	{
-		faceValue = 1;
-	}
+    // Attributter eller instansvariable
+    private int faceValue;
 
 
-	// konstruktør
-	public Dice(int value)
-	{
-		faceValue = value;
-	}
+    // Defaullt konstruktÃ¸r
+    public Dice() {
+        faceValue = 1;
 
-	public Dice(Dice t) {
-		faceValue = t.faceValue;
-	}
+    }
 
 
+    // KonstruktÃ¸r
+    public Dice(int val) {
 
-	// kast terning og returner øjne værdi
-	public int roll()
-	{
-		faceValue = (int)(Math.random() * MAX) + 1;
-		return faceValue;
-	}
+        faceValue = val;
 
-	// sæt øjne værdi
-	public void setFaceValue (int value)
-	{
-		if (value >= 1 && value <= MAX) 
-			faceValue = value;
-		else
-			faceValue = 1;
-	}
+    }
 
-	// hent øjne værdi
-	public int getFaceValue()
-	{
-		return faceValue;
-	}
+    public void setFaceValue(int val) {
 
-	// returnerer en streng repræsentation af objektets data
-	public String toString()
-	{
+        if (val >= 1 && val <= 6)
+            faceValue = val;
+    }
+
+    public int getFaceValue() {
+        return faceValue;
+    }
+
+    public int roll()
+    {
+        faceValue = (int)(Math.random() * MAX) + 1;
+        return faceValue;
+    }
 
 
-		String result = "Øjne: " + faceValue;
-		return result;
-	}
+
+    public String toString() {
+        return "Ã˜jne: " + faceValue;
+
+    }
+
+
 }
+
+
+
+
+
+
