@@ -4,23 +4,40 @@ package lektion03;
 import java.util.Scanner;
 
 public class Test {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
+
+
+		for(int num2 = 0; num2 <= 3;  num2++)
+			for(int num1 = 2; num1 <= 2; num1++)
+				System.out.println(num2 + "   " + num1);
+
+
+
+
+
+
 		Scanner keyb = new Scanner(System.in);
 
-		// erklær variable
-		String ugeDag;
-		String out;
+        // erklær variable
+        String ugeDag;
+        String out;
 
-		// indlæs
-		System.out.println("indtast ugedag (afslut ved at skrive \"slut\"): ");
-		ugeDag = keyb.next();
+		while (true) {
 
-		// konverter til små bogstaver
-		ugeDag = ugeDag.toLowerCase();
+			System.out.println("indtast ugedag (afslut ved at skrive \"slut\"): ");
+			ugeDag = keyb.next();
 
+			// konverter til små bogstaver
+			ugeDag = ugeDag.toLowerCase();
 
-		while (!ugeDag.equals("slut")) // IKKE ugeDag != “slut”
-		{
+			// test om slutbetingelse er opfyldt
+			if (ugeDag.equals("slut")) {
+				// sig farvel
+				System.out.println("Farvel");
+				// afbryd løkke
+				break;
+			}
+
 			switch (ugeDag) {
 				case "mandag":
 				case "tirsdag":
@@ -35,21 +52,12 @@ public class Test {
 					break;
 				default: out = "Kender ikke denne dag";
 			}
-
 			// udskriv resultat
 			System.out.println(out);
-
-			// ny indlæsning
-			System.out.println("indtast ugedag (afslut ved at skrive \"slut\"): ");
-			ugeDag = keyb.next();
-
-			// konverter til små bogstaver
-			ugeDag = ugeDag.toLowerCase();
 		}
-		// sig Farvel
-		System.out.println("Farvel");
 		// luk scanner
 		keyb.close();
+
 	}
 
 }

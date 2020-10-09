@@ -3,6 +3,9 @@ package test;
 import circle.Circle;
 import dice.Dice;
 
+import java.text.Format;
+import java.text.NumberFormat;
+
 
 public class Test {
 
@@ -27,14 +30,14 @@ public class Test {
 //
 //		System.out.println(d3);
 //
+		NumberFormat f = NumberFormat.getNumberInstance();
 
-
-		Circle c1 = new Circle(2);
+		Circle c1 = new Circle();
 		c1.setRadius(3);
 
 		System.out.println(c1);
 
-		System.out.println("Cirklens areal: " + c1.area());
+		System.out.println("Cirklens areal: " + f.format(c1.area()));
 
 
 		

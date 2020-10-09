@@ -6,6 +6,11 @@ import lektion05.Hjul;
 import lektion05.Student;
 
 public class Test {
+	private int a;
+
+	public void setA(int a) {
+		this.a = a;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -63,6 +68,8 @@ public class Test {
 
 //
 
+
+		setA(3);
 
 	}
 

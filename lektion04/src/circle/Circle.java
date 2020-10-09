@@ -8,9 +8,9 @@ public class Circle {
     public Circle(){
         radius = 0;
     }
-    
-    public Circle(double r){
-        setRadius(r);
+
+    public Circle(double radius){
+        this.radius = radius;
     }
     // getter metode
     public double getRadius(){

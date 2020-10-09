@@ -1,15 +1,73 @@
 package lektion06;
 
+import dice.Dice;
+
 public class Test {
 
 	public static void main(String[] args) {
 
-		int[] a = {1, 2, 3, 4, 5};
 
-		System.out.println(avg(2.0,3.0));
-		System.out.println(avg(2.0,3.0,4.0));
-		System.out.println(avg(2.0,3.0,4.0,5.0));
+		int jan = 31;
+		int feb = 28;
+		int marts = 31;
+		int april = 30;
+		int maj = 31;
+		int juni = 30;
 
+
+		int[] dage_i_maaned = {31, 28, 31, 30, 31, 30};
+
+//		dage_i_maaned = new int[6];
+//
+//		dage_i_maaned[0] = 31;
+//		dage_i_maaned[1] = 28;
+//		dage_i_maaned[2] = 31;
+//		dage_i_maaned[3] = 30;
+//		dage_i_maaned[4] = 31;
+//		dage_i_maaned[5] = 30;
+
+		String[] maaned_navne = {"Januar", "Februar", "Marts", "April", "Maj", "Juni"};
+
+		Dice dice1, dice2;
+
+		dice1 = new Dice(5);
+		dice2 = new Dice(6);
+
+		Dice[] dices = new Dice[2];
+
+		dices[0] = dice1;
+		dices[1] = dice2;
+
+		// alternativt
+
+		dices[0] = new Dice(5);
+		dices[1] = new Dice(6);
+
+		// initialiseringsste
+
+		// Dice[] dices = {new Dice(5), new Dice(6)};
+
+		System.out.println(dices[0]); // -> dice1 udskrives vha toString()
+
+//		System.out.println("Dage i Januar: " + jan);
+//		System.out.println("Dage i Januar: " + dage_i_maaned[0]);
+//
+//		System.out.println("Dage i Juni: " + dage_i_maaned[5]);
+
+		for (int i = 0; i < dage_i_maaned.length ; i++) {
+			System.out.println(dage_i_maaned[i]);
+		}
+		System.out.println("for each:");
+		for (int val : dage_i_maaned)
+			System.out.println(val);
+
+
+		//		int[] a = {1, 2, 3, 4, 5};
+//
+//		System.out.println(avg(2.0,3.0));
+//		System.out.println(avg(2.0,3.0,4.0));
+//		System.out.println(avg(2.0,3.0,4.0,5.0));
+//
 
 
 
