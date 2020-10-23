@@ -1,19 +1,47 @@
 package lektion07;
 
-import lektion07.frikadeller.Frikadelle;
-
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Lektion 7");
+        int i1 = 5, i2 = 10;
 
-        for (String arg : args) {
-            System.out.println(arg);
-        }
+        Integer iObj1 = new Integer(5);
+        Integer iObj2 = new Integer(10);
 
-        Frikadelle f4 = new Frikadelle(4);
 
-        System.out.println(f4);
+        // overførsel af simple typer
+        params(i1, i2);
 
-        f4.tilbered();
+        System.out.println("i1 = " + i1 + " i2 = " + i2);
+
+        // Overførsel af objektreferencer
+        params(iObj1, iObj2);
+
+        System.out.println("iObj1 = " + iObj1 + " iObj2 = " + iObj2);
+
+
+    }
+
+    // overførsel af simple datatyper
+    private static void params(int v1, int v2) {
+        // v1 = i1
+        // v2 = i2
+
+        v2 = v1;
+
+        System.out.println("v1 = " + v1 + " v2 = " + v2);
+    }
+
+    // overførsel af objektreferencer
+    private static void params(Integer v1, Integer v2) {
+        // v1 = iObj1
+        // v2 = iObj2
+
+
+        // v2 = v1
+        v2.setVal(v1.getVal());  // iObj2.setVal(iObj1.getVal())
+
+        System.out.println("v1 = " + v1 + " v2 = " + v2);
     }
 }
+
+
