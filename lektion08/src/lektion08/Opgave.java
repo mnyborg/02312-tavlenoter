@@ -9,7 +9,7 @@ public class Opgave {
                 {"01920", "02346", "62410"}
         };
         int snr = 1;
-        for (String kurserStud[] : kurser) {
+        for (String[] kurserStud : kurser) {
             System.out.println(snr++ + ". semester");
             for ( String kursus : kurserStud)
                 System.out.println(kursus);

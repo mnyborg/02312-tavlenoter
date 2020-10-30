@@ -14,12 +14,20 @@ public class SodaSurvey
    //-----------------------------------------------------------------
    public static void main (String[] args)
    {
+      // statistik over smagsprøver for sodavans
+      // rækker angiver sodavanstype, ialt 4 typer
+      // kollonner angiver test personer, ialt 10 personer
+
       int[][] scores = { {3, 4, 5, 2, 1, 4, 3, 2, 4, 4},
                          {2, 4, 3, 4, 3, 3, 2, 1, 2, 2},
                          {3, 5, 4, 5, 5, 3, 2, 5, 5, 5},
                          {1, 1, 1, 3, 1, 2, 1, 3, 2, 4} };
 
+
+      // giver længden af 1. dim = antal rækker = antal = antal sodavandstyper
       final int SODAS = scores.length;
+      // giver længden af 1. kollonne = antal forsøgspersoner
+      // kunne også have været scores[1].length, da alle kolloner indeholder samme antal elementer ( personer)
       final int PEOPLE = scores[0].length;
 
       int[] sodaSum = new int[SODAS];
