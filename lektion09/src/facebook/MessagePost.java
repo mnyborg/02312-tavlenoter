@@ -9,5 +9,12 @@ public class MessagePost extends Post {
        this.message = message;
     }
 
+    @Override
+    public String toString() {
+        return message + "\n" + super.toString();
+    }
 
+    public String type() {
+        return "MessagePost";
+    }
 }

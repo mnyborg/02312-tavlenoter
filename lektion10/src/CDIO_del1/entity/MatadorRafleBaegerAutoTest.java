@@ -14,6 +14,7 @@ public class MatadorRafleBaegerAutoTest extends MatadorRafleBaeger{
 		super();
 		this.index = index;
 	}
+	@Override
 	public void rollDice()	{
 		
 		

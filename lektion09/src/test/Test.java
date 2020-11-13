@@ -2,6 +2,7 @@ package test;
 
 import facebook.MessagePost;
 import facebook.PhotoPost;
+import facebook.Post;
 import personer.Student;
 
 
@@ -23,6 +24,8 @@ public class Test  {
        //   Post p = new Post("Mads");
         MessagePost mp1 = new MessagePost("Mads", "message1");
         PhotoPost mp2 = new PhotoPost("Mads"    , "photo1.jpeg", "Photo1");
+      //  Post p = new Post("Mads"); - kan ikke instantiere en abstract klasse
+
         mp1.like();
         mp1.addComment("comment1");
         mp1.addComment("comment2");

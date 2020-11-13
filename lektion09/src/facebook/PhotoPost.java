@@ -9,5 +9,14 @@ public class PhotoPost extends Post {
         this.filename = filename;
         this.caption = caption;
     }
+
+    @Override
+    public String toString() {
+        return filename + " " + caption + "\n" + super.toString();
+    }
+
+    public String type() {
+        return "PhotoPost";
+    }
 }
 

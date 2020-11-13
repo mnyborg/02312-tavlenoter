@@ -3,7 +3,7 @@ package facebook;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Post {
+public abstract class Post {
     private String username;
     private long timestamp;
     private int likes;
@@ -32,6 +32,9 @@ public class Post {
             comments[commentindex++] = c;
     }
 
+    // abstract metode
+    public abstract String type();
+
     public String toString() {
         String result;
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd 'at' HH:mm:ss z");
@@ -41,7 +44,7 @@ public class Post {
         result = result + " " + username + "\n";
 
         if (likes > 0)
-            result = result + " " + likes + " person(er) har liked det" + "\n";
+            result = result + " " + likes + " person(er) har liked dette" + "\n";
 
         if (commentindex == 0)
             result = result + " ingen kommentarer" + "\n";
