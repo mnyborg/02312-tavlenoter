@@ -13,6 +13,11 @@ public class Cirkel extends Figur {
         return Math.PI * Math.pow(r,2);
     }
 
+//    @Override
+//    public double rumfang() {
+//        return 0;
+//    }
+
     @Override
     public String toString() {
         return super.toString() + " " + "Cirkel{" +

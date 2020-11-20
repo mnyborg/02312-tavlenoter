@@ -3,6 +3,7 @@ package test;
 import figurer.Cirkel;
 import figurer.Cylinder;
 import figurer.Figur;
+import figurer.Rektangel;
 
 public class Test {
     public static void main(String[] args) {
@@ -23,7 +24,10 @@ public class Test {
         f = cy;
         System.out.println(f.areal());
 
-        Figur[] fArr = {new Cirkel("Orange", 5.0), new Cylinder("Sort", 2.0, 9.0)};
+
+        System.out.println(((Cylinder) f).rumfang());  // downcasting
+
+        Figur[] fArr = {new Cirkel("Orange", 5.0), new Cylinder("Sort", 2.0, 9.0), new Rektangel("blaa" ,3.0, 5.0)};
 
         for (int i = 0; i < fArr.length ; i++) {
             System.out.println(fArr[i].areal());

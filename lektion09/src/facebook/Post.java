@@ -48,10 +48,11 @@ public abstract class Post {
 
         if (commentindex == 0)
             result = result + " ingen kommentarer" + "\n";
-        else
+        else {
+            result = result + " " + commentindex + " kommentarer" + "\n";
             for (int i = 0; i < commentindex; i++)
                 result = result + comments[i] + "\n";
-
+        }
             return result;
     }
 }

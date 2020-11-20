@@ -25,6 +25,7 @@ public class Test  {
         MessagePost mp1 = new MessagePost("Mads", "message1");
         PhotoPost mp2 = new PhotoPost("Mads"    , "photo1.jpeg", "Photo1");
       //  Post p = new Post("Mads"); - kan ikke instantiere en abstract klasse
+        Post p[] = {mp1, mp2};
 
         mp1.like();
         mp1.addComment("comment1");
@@ -32,6 +33,12 @@ public class Test  {
         mp1.addComment("comment3");
         System.out.println(mp1);
         System.out.println(mp2);
+
+        // polymorfisk kald af toString()
+        for (int i = 0; i < p.length; i++) {
+            System.out.println(p[i]);
+        }
+
 
 //        Cylinder c = new Cylinder(3.0,4.0);
 //        System.out.println(c);
