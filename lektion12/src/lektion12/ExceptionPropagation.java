@@ -23,7 +23,13 @@ public class ExceptionPropagation {
 
 
 	static void method3() throws ArithmeticException {
-		int result = 100 / 0;  // AritmeticException !
+		int[] ia = new int[5];
+		try {
+			ia[5] = 5;
+			int result = 100 / 0;  // AritmeticException !
+		} finally {
+			System.out.println("sidste ønske ....");
+		}
 	}
 
 
